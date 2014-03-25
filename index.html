@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>DEMO TLATOA</title>
+        <!--CEL-->
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <!--FIN CEL-->
+        <!--MENU-->
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/style5.css" />
+        <!--FIN MENU-->         
+        <!--CARRUSEL-->         
+        <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+        <!--FIN CARRUSEL-->         
+	</head>
+	<body>
+        <!--CARRUSEL-->
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="img/slider1.jpg" data-src="img/slider1.jpg">
+                <div class="camera_caption fadeFromBottom" align = "center">
+                    AQUI IRA ALGO ACERCA DE TLATOA <em>. . . tlatoa everywhere</em>
+                </div>
+            </div>
+            <div data-thumb="img/slider2.jpg" data-src="img/slider2.jpg">
+                <div class="camera_caption fadeFromBottom" align = "center">
+                   AQUI IRA ALGO ACERCA DE TLATOA <em>. . . tlatoa everywhere</em>
+                </div>
+            </div>
+            <div data-thumb="img/slider3.jpg" data-src="img/slider3.jpg">
+                <div class="camera_caption fadeFromBottom" align = "center">
+                    AQUI IRA ALGO ACERCA DE TLATOA <em>. . . tlatoa everywhere</em>
+                </div>
+            </div>
+        </div>
+        <!--FIN CARRUSEL-->
+        <!--CEL-->
+        <div class="container">	
+            <div class="main">
+                <div id="ac-wrapper" class="ac-wrapper">
+                    <DIV align = "center">
+                        <h2>TLATOA <span> <em>Hablemos con las manos</em></span></h2>
+                    </DIV>
+                    <div class="ac-device">
+                        <a href="#"><img src="img/Splash.png"/></a>
+                        <h3 class="ac-title">Splash</h3>
+                    </div>
+                    <div class="ac-grid">
+                        <a href="#"><img src="img/Principal.png"/><span>Principal</span></a>
+                        <a href="#"><img src="img/Traducir.png"/><span>Traducir</span></a>
+                        <a href="#"><img src="img/Acercade.png"/><span>Acerca de</span></a>
+                        <a href="#"><img src="img/Perfil.png"/><span>Perfil</span></a>
+                    </div>                   
+                </div>	                		
+            </div>
+        </div>
+        <!--FIN CEL-->
+        <DIV>
+        </DIV>                 
+        <!--MENU-->
+        <nav id="bt-menu" class="bt-menu">
+            <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://twitter.com/xihuanicode" class="bt-icon icon-twitter">Twitter</a></li>
+                <li><a href="https://plus.google.com/110928908830729710034/posts" class="bt-icon icon-gplus">Google+</a></li>
+                <li><a href="https://www.facebook.com/xihuanicode" class="bt-icon icon-facebook">Facebook</a></li>
+            </ul>
+        </nav>
+        <!--FIN MENU-->
+        <!--CEL-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/appshowcase.js"></script>
+		<script>
+			$(function() {
+				AppShowcase.init();
+			});
+		</script>
+        <!--FIN CEL-->
+        <!--MENU-->
+        <script src="js/classie.js"></script>
+	    <script src="js/borderMenu.js"></script>
+        <!--FIN MENU-->
+        <!--STYLE MENU-->
+        <style>
+		body {
+                margin: 0;
+                padding: 0;
+            }
+            a {
+                color: #09f;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            #back_to_camera {
+                clear: both;
+                display: block;
+                height: 80px;
+                line-height: 40px;
+                padding: 20px;
+            }
+            .fluid_container {
+                margin: 0 auto;
+                max-width: 10000px;
+                width: 100%;
+            }
+	    </style>      
+        <script type='text/javascript' src='js/jquery.min.js'></script>
+        <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+        <script type='text/javascript' src='js/camera.min.js'></script> 
+        
+        <script>
+            jQuery(function(){
+                
+                jQuery('#camera_wrap_1').camera({
+                    thumbnails: true,
+                    height: '400px',
+                });
+            });
+        </script>
+        <!--FIN STYLE MENU-->
+	</body>
+</html>
